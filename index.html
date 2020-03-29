@@ -6,16 +6,36 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Advice in Uncertainty</title>
+    <title>Advice During Uncertainty</title>
 </head>
 <body>
-    <div class="container-fluid text-center">
-        <h1>Advice Generator for Uncertain Times of COVID-19</h1>
-        <h4>Keep your head up with random advice during troubling times.</h4>
-    </div>
-    <div class="card advice-panel">
-        <p id="advice"></p>
-        <a href="#" id="tweet-button" target="_blank"><button>Tweet</button></a>
+    <div class="container-fluid text-center mycontainer">
+        <div class="row outer-row justify-content-center align-items-center">
+            <div class="col-5 outer-column">
+                <div class="row title-row justify-content-center ">
+                    <div class="col m-5 top-panel">
+                        <h1>Advice Generator</h1>
+                        <h4>Keep your head up with random advice during uncertain times.</h4>
+                    </div>
+                </div>
+                <div class="row advice-row justify-content-center">
+                    <div class="col m-2 bottom-panel">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-8 advice-panel">
+                                <p id="advice"></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-3 tweet-panel">
+                                <a href="#" id="tweet-button" target="_blank">
+                                    <button type="button" class="btn btn-info">Tweet</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

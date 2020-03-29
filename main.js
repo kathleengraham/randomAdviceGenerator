@@ -13,7 +13,7 @@ fetch('https://api.adviceslip.com/advice')
     const tweetButton = document.getElementById("tweet-button");
 
     adviceElement.innerText = adviceText;
-    tweetButton.attributes.href.value = tweetURL + encodeURIComponent(adviceText);
+    tweetButton.attributes.href.value = tweetURL + encodeURIComponent(`Today's advice from Kat's Random Advice Generator: "${adviceText}"`);
 
     console.log('API JSON Data: ', data);
     console.log('Advice: ', adviceText)
