@@ -12,6 +12,4 @@
 
 ### Build
 
-* index
-* style
-* main
+Check out the result [here](https://kathleengraham.github.io/randomAdviceGenerator/).
